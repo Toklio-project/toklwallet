@@ -143,7 +143,7 @@ public class ExchangeBtcTextView extends LinearLayout
         sCurrencyA.setEnabled(false);
         ArrayAdapter<String> xmrAdapter = new ArrayAdapter<String>(getContext(),
                 android.R.layout.simple_spinner_item,
-                new String[]{"XMR"});
+                new String[]{"TOKL"});
         sCurrencyB.setAdapter(xmrAdapter);
         sCurrencyB.setEnabled(false);
     }
@@ -159,7 +159,7 @@ public class ExchangeBtcTextView extends LinearLayout
             xmrAmount = "";
         }
         tvAmountB.setText(getResources().getString(R.string.send_amount_btc_xmr, xmrAmount));
-        Timber.d("%s BTC =%f> %s XMR", btcAmount, xmrBtcRate, xmrAmount);
+        Timber.d("%s BTC =%f> %s TOKL", btcAmount, xmrBtcRate, xmrAmount);
     }
 
     // deal with attached numpad

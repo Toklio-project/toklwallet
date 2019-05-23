@@ -313,7 +313,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                         processScannedData(barcodeData);
                     } else {
                         etAddress.setError(getString(R.string.send_address_not_openalias));
-                        Timber.d("NO XMR OPENALIAS TXT FOUND");
+                        Timber.d("NO TOKL OPENALIAS TXT FOUND");
                     }
                 }
 

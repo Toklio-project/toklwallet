@@ -51,11 +51,11 @@ clean:
 	script/clean.sh
 
 distclean: clean
-	find monero    -type f -a ! -name ".gitignore" -a ! -name "wallet2_api.h" -exec rm {} \;
+	find Toklio    -type f -a ! -name ".gitignore" -a ! -name "wallet2_api.h" -exec rm {} \;
 	find boost     -type f -a ! -name ".gitignore" -exec rm {} \;
 	find libsodium -type f -a ! -name ".gitignore" -exec rm {} \;
 	find openssl   -type f -a ! -name ".gitignore" -exec rm {} \;
 
-archive: libsodium openssl boost monero
+archive: libsodium openssl boost Toklio
 	echo "Packing external-libs"
-	tar czfv libsodium openssl boost monero external-libs.tgz
+	tar czfv libsodium openssl boost Toklio external-libs.tgz
