@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Crear nuevo monedero</h1>
-        <p>¡En caso de que necesites una nueva dirección de Monero!</p>
+        <p>¡En caso de que necesites una nueva dirección de Toklio!</p>
         <p>Introduce un nombre único para tu monedero y una contraseña.
         La contraseña es utilizada para proteger los datos de tu monedero en el dispositivo.
         Utiliza una contraseña fuerte - incluso mejor si utilizas una frase.</p>
@@ -24,7 +24,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Restaurar monedero con semilla</h1>
-        <p>¡Si ya tienes una dirección de Monero y quieres recuperar sus transacciones desde la
+        <p>¡Si ya tienes una dirección de Toklio y quieres recuperar sus transacciones desde la
         cadena de bloques!</p>
         <p>La contraseña es utilizada para proteger los datos de tu monedero en el dispositivo.
         Utiliza una contraseña fuerte - incluso mejor si utilizas una frase.</p>
@@ -41,7 +41,7 @@
         <p>Introduce un nombre único para tu monedero y una contraseña.
         La contraseña es utilizada para proteger los datos de tu monedero en el dispositivo.
         Utiliza una contraseña fuerte - incluso mejor si utilizas una frase.</p>
-        <p>Ingresa tu dirección de Monero en el campo \"Dirección Pública\" y completa
+        <p>Ingresa tu dirección de Toklio en el campo \"Dirección Pública\" y completa
         \"Clave de Vista\" y \"Clave de Gasto\".</p>
         <p>Si conoces el número de bloque de la primera transacción usada en esta dirección,
         introdúcelo en el campo \"Altura de Restauración\" - dejándolo en blanco se escaneará la
@@ -55,7 +55,7 @@
         <p>Introduce un nombre único para tu monedero y una contraseña.
         La contraseña es utilizada para proteger los datos de tu monedero en el dispositivo.
         Utiliza una contraseña fuerte - incluso mejor si utilizas una frase.</p>
-        <p>Ingresa tu dirección de Monero en el campo \"Dirección Pública\" y completa
+        <p>Ingresa tu dirección de Toklio en el campo \"Dirección Pública\" y completa
         \"Clave de Vista\".</p>
         <p>Si conoces el número de bloque de la primera transacción usada en esta dirección,
         introdúcelo en el campo \"Altura de Restauración\" - dejándolo en blanco se escaneará la
@@ -91,7 +91,7 @@
         aplicación generará una CrAzYpass y asegurará los archivos de tu monedero con ella.
         ¡Por favor anótala bien!
         <h3>Monederos CrAzYpass</h3>
-        Si alguna vez necesitas reinstalar Monerujo (por ejemplo luego de restaurar tu teléfono
+        Si alguna vez necesitas reinstalar ToklWallet (por ejemplo luego de restaurar tu teléfono
         o cambiar a uno nuevo) o si necesitas abrir los archivos de tu monedero en otro dispositivo
         o en una PC, vas a tener que usar esta Contraseña de Recuperación (CrAzYpass) para poder
         acceder a tu monedero otra vez.<br/>
@@ -108,10 +108,10 @@
     <string name="help_list"><![CDATA[
         <h1>Lista de monederos</h1>
         <h2>Nodo</h2>
-        <p>Monerujo utiliza un nodo remoto para comunicarse con la red de Monero sin tener que
+        <p>ToklWallet utiliza un nodo remoto para comunicarse con la red de Toklio sin tener que
         descargar y almacenar una copia completa de la cadena de bloques. Puedes encontrar una lista
         de nodos remotos populares o aprender como montar tu propio nodo remoto aquí https://moneroworld.com</p>
-        <p>Monerujo viene con un nodo remoto ya preconfigurado. También recuerda los últimos cinco
+        <p>ToklWallet viene con un nodo remoto ya preconfigurado. También recuerda los últimos cinco
         nodos utilizados.</p>
         <h2>Monederos</h2>
         <p>Aquí puedes ver tus monederos. Están ubicados en el directorio <tt>monerujo</tt> del
@@ -141,17 +141,17 @@
         <h2>Destinatario</h2>
         Esta es la dirección pública del monedero al que has enviado moneroj
         <h2>ID de Pago</h2>
-        Al ser Monero ofuscado por naturaleza, puedes usar un ID de Pago para identificar un envío de Monero entre
+        Al ser Toklio ofuscado por naturaleza, puedes usar un ID de Pago para identificar un envío de Toklio entre
         dos partes. Esto es completamente opcional y privado. Por ejemplo, esto permitiría que un
         negocio pueda asociar inequívocamente tu transacción con un producto que has comprado.
         <h2>ID de Transacción</h2>
         Este es un identificador de tu transacción que puede ser utilizado para ubicar tu transacción
-        ofuscada en la cadena de bloques de Monero usando un explorador como <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+        ofuscada en la cadena de bloques de Toklio usando un explorador como <a href="https://xmrchain.net/">https://xmrchain.net/</a>
         <h2>Clave de transacción</h2>
         Esta es la clave privada de tu transacción, mantenla segura ya que revelarla a un tercero
         desvela que firma en un anillo de transacciones es la tuya, por tanto haciendo tus transacciones transparentes.
         <h2>Bloque</h2>
-        Este es el bloque de la cadena de Monero en el que tu transacción fue incluída.
+        Este es el bloque de la cadena de Toklio en el que tu transacción fue incluída.
     ]]></string>
 
     <string name="help_send"><![CDATA[
@@ -160,72 +160,72 @@
         <p>Esta es la dirección pública del monedero al que vas a enviar moneroj. Puedes copiarla
         desde tu portapapeles, escanear un código QR o introducirla manualmente. Asegúrate de
         comprobarla varias veces para confirmar que no estás enviando moneroj a la dirección equivocada.</p>
-        <p>In addition to using an XMR address, you can also use
+        <p>In addition to using an TOKL address, you can also use
         <ul>
-            <li>an OpenAlias for XMR or BTC</li>
+            <li>an OpenAlias for TOKL or BTC</li>
             <li>a BTC address</li>
             <li>a bitcoin: URI (including BIP70 like bitpay)</li>
         </u>
-        Please note, that sending BTC is processed through the XMR.TO service (see https://xmr.to
+        Please note, that sending BTC is processed through the TOKL.TO service (see https://xmr.to
         for details). See the section on sending BTC below.</p>
         <h2>ID de Pago</h2>
-        Al ser Monero ofuscado por naturaleza, puedes usar un ID de Pago para identificar un envío de Monero entre
+        Al ser Toklio ofuscado por naturaleza, puedes usar un ID de Pago para identificar un envío de Toklio entre
         dos partes. Esto es completamente opcional y privado. Por ejemplo, esto permitiría que un
         negocio pueda asociar inequívocamente tu transacción con un producto que has comprado.</p>
         <h1>Enviar BTC</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO es un servicio de terceros que actúa como casa de cambio de Monero a Bitcoin.
-        Usamos la API de XMR.TO para integrar pagos de Bitcoin dentro de Monerujo. Por favor revisa
-        https://xmr.to y decide por ti mismo si es un servicio que quieres usar. El equipo de Monerujo
-        no está asociado con XMR.TO y no puede ayudarte con su servicio.</p>
-        <h2>Tipo de cambio XMR.TO<h2>
-        <p>En la pantalla de \"Monto\" se te mostrará las condiciones actuales del servicio XMR.TO.
+        <h2>TOKL.TO</h2>
+        <p>TOKL.TO es un servicio de terceros que actúa como casa de cambio de Toklio a Bitcoin.
+        Usamos la API de TOKL.TO para integrar pagos de Bitcoin dentro de ToklWallet. Por favor revisa
+        https://xmr.to y decide por ti mismo si es un servicio que quieres usar. El equipo de ToklWallet
+        no está asociado con TOKL.TO y no puede ayudarte con su servicio.</p>
+        <h2>Tipo de cambio TOKL.TO<h2>
+        <p>En la pantalla de \"Monto\" se te mostrará las condiciones actuales del servicio TOKL.TO.
         Estas incluyen el tipo de cambio del momento así como también los límites mínimo y máximo de BTC.
         Toma nota de que el tipo de cambio aún no está garantizado en esa instancia. También verás el
         monto tope hasta el cual la transacción será ejecutada instantáneamente sin esperar a
-        confirmaciones de XMR (revisa el FAQ de XMR.TO para más detalles). Por favor observa que
-        XMR.TO no cobra comisiones extra - increíble, verdad?</p>
-        <h2>Orden XMR.TO<h2>
-        <p> En la pantalla \"Confirmar\" verás la orden XMR.TO final. Esta orden es válida por un
+        confirmaciones de TOKL (revisa el FAQ de TOKL.TO para más detalles). Por favor observa que
+        TOKL.TO no cobra comisiones extra - increíble, verdad?</p>
+        <h2>Orden TOKL.TO<h2>
+        <p> En la pantalla \"Confirmar\" verás la orden TOKL.TO final. Esta orden es válida por un
         tiempo limitado - notarás una cuenta atrás en el botón de \"Gastar\". El tipo de cambio a
         esta altura puede ser distinto al aproximado que era mostrado en pantallas anteriores.</p>
-        <h2>Clave secreta XMR.TO<h2>
-        <p>Dado que Monerujo sólo administra la parte en Monero de tu transacción, puedes usar tu
-        clave secreta XMR.TO para rastrear la parte en Bitcoin de tu orden en la página de XMR.TO.</p>
+        <h2>Clave secreta TOKL.TO<h2>
+        <p>Dado que ToklWallet sólo administra la parte en Toklio de tu transacción, puedes usar tu
+        clave secreta TOKL.TO para rastrear la parte en Bitcoin de tu orden en la página de TOKL.TO.</p>
         <p>Por favor ten en cuenta que esta clave secreta sólo es válida por 24 horas a partir de
         iniciada la transacción!</p>
-        <h2>Cuenta atrás XMR.TO!</h2>
+        <h2>Cuenta atrás TOKL.TO!</h2>
         <p>Una vez que la cuenta atrás alcanza el cero, necesitarás pedir una nueva cotización de
-        parte de XMR.TO, esto se logra dando un paso atrás y luego volviendo a la pantalla de
+        parte de TOKL.TO, esto se logra dando un paso atrás y luego volviendo a la pantalla de
         \"Confirmar\".</p>
     ]]></string>
 
     <string name="help_xmrto"><![CDATA[
         <h1>Enviar BTC</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO es un servicio de terceros que actúa como casa de cambio de Monero a Bitcoin.
-        Usamos la API de XMR.TO para integrar pagos de Bitcoin dentro de Monerujo. Por favor revisa
-        https://xmr.to y decide por ti mismo si es un servicio que quieres usar. El equipo de Monerujo
-        no está asociado con XMR.TO y no puede ayudarte con su servicio.</p>
-        <h2>Tipo de cambio XMR.TO<h2>
-        <p>En la pantalla de \"Monto\" se te mostrará las condiciones actuales del servicio XMR.TO.
+        <h2>TOKL.TO</h2>
+        <p>TOKL.TO es un servicio de terceros que actúa como casa de cambio de Toklio a Bitcoin.
+        Usamos la API de TOKL.TO para integrar pagos de Bitcoin dentro de ToklWallet. Por favor revisa
+        https://xmr.to y decide por ti mismo si es un servicio que quieres usar. El equipo de ToklWallet
+        no está asociado con TOKL.TO y no puede ayudarte con su servicio.</p>
+        <h2>Tipo de cambio TOKL.TO<h2>
+        <p>En la pantalla de \"Monto\" se te mostrará las condiciones actuales del servicio TOKL.TO.
         Estas incluyen el tipo de cambio del momento así como también los límites mínimo y máximo de BTC.
         Toma nota de que el tipo de cambio aún no está garantizado en esa instancia. También verás el
         monto tope hasta el cual la transacción será ejecutada instantáneamente sin esperar a
-        confirmaciones de XMR (revisa el FAQ de XMR.TO para más detalles). Por favor observa que
-        XMR.TO no cobra comisiones extra - increíble, verdad?</p>
-        <h2>Orden XMR.TO<h2>
-        <p> En la pantalla \"Confirmar\" verás la orden XMR.TO final. Esta orden es válida por un
+        confirmaciones de TOKL (revisa el FAQ de TOKL.TO para más detalles). Por favor observa que
+        TOKL.TO no cobra comisiones extra - increíble, verdad?</p>
+        <h2>Orden TOKL.TO<h2>
+        <p> En la pantalla \"Confirmar\" verás la orden TOKL.TO final. Esta orden es válida por un
         tiempo limitado - notarás una cuenta atrás en el botón de \"Gastar\". El tipo de cambio a
         esta altura puede ser distinto al aproximado que era mostrado en pantallas anteriores.</p>
-        <h2>Clave secreta XMR.TO<h2>
-        <p>Dado que Monerujo sólo administra la parte en Monero de tu transacción, puedes usar tu
-        clave secreta XMR.TO para rastrear la parte en Bitcoin de tu orden en la página de XMR.TO.</p>
+        <h2>Clave secreta TOKL.TO<h2>
+        <p>Dado que ToklWallet sólo administra la parte en Toklio de tu transacción, puedes usar tu
+        clave secreta TOKL.TO para rastrear la parte en Bitcoin de tu orden en la página de TOKL.TO.</p>
         <p>Por favor ten en cuenta que esta clave secreta sólo es válida por 24 horas a partir de
         iniciada la transacción!</p>
-        <h2>Cuenta atrás XMR.TO!</h2>
+        <h2>Cuenta atrás TOKL.TO!</h2>
         <p>Una vez que la cuenta atrás alcanza el cero, necesitarás pedir una nueva cotización de
-        parte de XMR.TO, esto se logra dando un paso atrás y luego volviendo a la pantalla de
+        parte de TOKL.TO, esto se logra dando un paso atrás y luego volviendo a la pantalla de
         \"Confirmar\".</p>
     ]]></string>
 
@@ -247,17 +247,17 @@
         <p>El Modo Público puede ser habilitado/deshabilitado en el menú o en el icono de Gunther\'s. En este modo, tu
         balance no se muestra en ninguna pantalla para que puedas usar de manera segura tu monedero en la calle, un pub u
         otro lugar público. Transacciones anteriores también se ocultan. Nuevas transacciones serán mostradas, para
-        que puedas ver que has enviado/recibido Moneroj.</p>
+        que puedas ver que has enviado/recibido Toklioj.</p>
         <h2>Escaneado</h2>
-        Como a Monero le gusta mantener las cosas privadas, cada vez que abres una cartera de
-        Monerujo es necesario escanear la cadena de bloques para ver si nuevos moneroj han sido
+        Como a Toklio le gusta mantener las cosas privadas, cada vez que abres una cartera de
+        ToklWallet es necesario escanear la cadena de bloques para ver si nuevos moneroj han sido
         enviados a tu dirección. Esto solo almacena en tu teléfono las transacciones que pertenecen a tu
         monedero. Esto puede llevar un rato si hace tiempo que no sincronizas.
         <h2>Saldo</h2>
         <p><b>¡Ayuda! ¡El saldo de mi monedero ha desaparecido o aparece sin confirmar!</b><br/>
         ¡No entres en pánico! Cuando envias fondos a tu monedero, parte de tu saldo se mostrará
         temporalmente como sin confirmar.
-        Esto es debido a como funcionan las transacciones y su cambio en Monero. Todo está bien.
+        Esto es debido a como funcionan las transacciones y su cambio en Toklio. Todo está bien.
         Puedes leer más al respecto en https://getmonero.org/resources/moneropedia/change.html
         <h2>Lista de transacciones</h2>
         <p>Es una lista con las transacciones del monedero. Ten en cuenta que en monederos de solo vista, únicamente se
@@ -267,14 +267,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodos</h1>
         <h2>TL;DR</h2>
-        <p>Refresca la lista de nodos al mostrar los marcadores de nodos para permitir a Monerujo
+        <p>Refresca la lista de nodos al mostrar los marcadores de nodos para permitir a ToklWallet
         elegir el mejor para ti.</p>
         <h2>¿Qué es un Nodo?h2>
-        <p>Monerujo usa un Nodo Remoto (algunas veces también llamado Daemon) para comunicarse con
-        la red de Monero sin tener que descargar y almacenar una copia de la
+        <p>ToklWallet usa un Nodo Remoto (algunas veces también llamado Daemon) para comunicarse con
+        la red de Toklio sin tener que descargar y almacenar una copia de la
         cadena de bloques completa.<p>
         <h2>Lista de Nodos</h2>
-        <p>Si la lista está vacía, puedes agregar nuevos nodos manualmente o dejar que Monerujo
+        <p>Si la lista está vacía, puedes agregar nuevos nodos manualmente o dejar que ToklWallet
         escanee la red por ti. O ambos.</p>
         <p>La lista de nodos muestra todos los nodos actualmente conocidos. Adicionalmente, la marca de tiempo
         del último bloque conocido para cada nodo se muestra bajo el nombre del nodo. Un icono
@@ -283,10 +283,10 @@
         es mostrado seguido de cada nodo.</p>
         <p>Cualquier nodo en la lista puede ser marcado para un posterior uso.
         Nodos que no sean marcados serán olvidados.<p>
-        <p>Monerujo elegirá el nodo marcado óptimo cada vez que lo uses.
+        <p>ToklWallet elegirá el nodo marcado óptimo cada vez que lo uses.
         Esto lo hace revisando la altura del bloque (¿qué tan al día
         está el nodo?) así como el comportamiento de respuesta (¿qué tan rápido responde el nodo a solicitudes?).</p>
-        <p>La lista se ordena por estas características, por lo tanto el primer nodo en la lista sería el que Monerujo
+        <p>La lista se ordena por estas características, por lo tanto el primer nodo en la lista sería el que ToklWallet
         elegiría en ese momento. El final de la lista mostraría nodos muy lentos o no disponibles.</p>
         <h2>Agregar un Nodo</h2>
         <p>Presionando en el botón &quot;Agregar Nodo&quot; en la parte inferior, se te pedirá que
@@ -300,16 +300,16 @@
         Los &quot;Resultados de la Prueba&quot; mostrarán la altura del bloque, tiempo de respuesta y dirección IP real usados.
         El resultado puede ser también un error - usualmente porque el nombre de host provisto no
         es alcanzable en una sensible cantidad de tiempo o las credenciales son incorrectas.
-        O la combinación nombre de host/puerto no indican a un nodo de Monero real.
+        O la combinación nombre de host/puerto no indican a un nodo de Toklio real.
         Una vez que la prueba sea exitosa (sin error) - estás listo para presionar &quot;OK&quot; para guardar &amp;
         como marcador este nodo.</p>
         <h2>Escanear por Nodos</h2>
-        <p>Adicionalmente, puedes escanear la red por nodos. Monerujo empezará
+        <p>Adicionalmente, puedes escanear la red por nodos. ToklWallet empezará
         escaneando la red por Nodos Remotos con puerto 18089. Comienza preguntando tus
-        nodos marcados por otros compañeros en la red P2P de Monero y después continúa
+        nodos marcados por otros compañeros en la red P2P de Toklio y después continúa
         preguntando por nodos a ellos por sus compañeros, y así. Si no tienes nodos marcados
         (o no nos comunican sobre sus compañeros),
-        Monerujo irá directo a los nodos semilla de Monero codificados en Monero. El
+        ToklWallet irá directo a los nodos semilla de Toklio codificados en Toklio. El
         escaneo parará cuando encuentre 10 nodos remotos en total.</p>
     ]]></string>
 

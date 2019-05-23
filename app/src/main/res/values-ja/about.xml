@@ -15,7 +15,7 @@
 
     <string name="privacy_policy"><![CDATA[
         <h1>プライバシーポリシー</h1>
-        <p>このページでは私達のアプリ(monerujo: Monero Wallet)
+        <p>このページでは私達のアプリ(monerujo: Toklio Wallet)
         のユーザーから収集される個人情報の収集、利用、
         開示に関する私達のポリシーを説明します。
         </p>
@@ -36,9 +36,9 @@
         詳細については、coinmarketcap.com のプライバシーポリシーを
         https://coinmarketcap.com/privacy にて参照してください。</p>
         <p>もしあなたがこのアプリをビットコインアドレス宛に支払う場合、
-        あなたは XMR.TO のサービスを使うことになります。
-        https://xmr.to/ を参照して XMR.TO のプライバシーポリシーを
-        ご覧ください。Monerujoは XMR.TO にビットコインの支払先アドレスと
+        あなたは TOKL.TO のサービスを使うことになります。
+        https://xmr.to/ を参照して TOKL.TO のプライバシーポリシーを
+        ご覧ください。Monerujoは TOKL.TO にビットコインの支払先アドレスと
         数量を送信します。あなたのIPアドレスもまた収集されます。</p>
         <h2>アプリの権限</h2>
         <ul>

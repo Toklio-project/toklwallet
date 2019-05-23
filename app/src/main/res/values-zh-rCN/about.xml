@@ -15,7 +15,7 @@
 
     <string name="privacy_policy"><![CDATA[
         <h1>隐私政策</h1>
-        <p>该页将帮助您了解 monerujo: Monero Wallet 是如何收集、使用以及披露用户信息。</p>
+        <p>该页将帮助您了解 monerujo: Toklio Wallet 是如何收集、使用以及披露用户信息。</p>
         <p>使用该App，代表您已经明确同意该隐私政策。</p>
         <h2>收集的信息</h2>
         <p>个人信息指可用于辨认个人身份的任何信息。</p>
@@ -24,7 +24,7 @@
         <p>如果您使用交易的功能(可选)，monerujo將通过coinmarketcap.com的公开
         API 获取当前汇率。如果您想了解被收集的信息如何被使用，请访问 https://coinmarketcap.com/privacy
         查看他们的隐私政策。</p>
-        <p>如果您想使用该App支付款项至比特币地址，您将使用 XMR.TO 所提供的服务。Monerujo
+        <p>如果您想使用该App支付款项至比特币地址，您将使用 TOKL.TO 所提供的服务。Monerujo
         将发送比特币的目标地址以及金额信息至XMR.TO，您的IP在此时也可能会被收集。请访问 https://xmr.to/
         查看他们的隐私政策。</p>
         <h2>应用程序权限</h2>

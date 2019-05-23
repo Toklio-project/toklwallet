@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Krei monujon - Nova</h1>
-        <p>Se vi bezonas novan Monero-adreson!</p>
+        <p>Se vi bezonas novan Toklio-adreson!</p>
         <p>Entajpu unikan monujnomon kaj pasvorton.
         La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via aparato. Uzu fortan
         pasvorton - eĉ pli bone, uzu pasfrazon.</p>
@@ -21,7 +21,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Krei monujon - Semo</h1>
-        <p>Se vi jam havas Monero-adreson kaj volas reĉerpi la transkaciojn el la blokĉeno!</p>
+        <p>Se vi jam havas Toklio-adreson kaj volas reĉerpi la transkaciojn el la blokĉeno!</p>
         <p>Entajpu unikan monujnomon kaj pasvorton.
         La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via aparato. Uzu fortan
         pasvorton - eĉ pli bone, uzu pasfrazon.</p>
@@ -51,7 +51,7 @@
         <p>Entajpu unikan monujnomon kaj pasvorton.
         La pasvorto estas uzita por sekurigi la datumojn de via monujo sur via Android-aparato. Uzu fortan
         pasvorton - eĉ pli bone, uzu pasfrazon.</p>
-        <p>Entajpu vian Monero-adreson en la kamp \"Public Address\" kaj plenigu \"Vida ŝlosilo\" kaj \"Elspezŝlosilo\".</p>
+        <p>Entajpu vian Toklio-adreson en la kamp \"Public Address\" kaj plenigu \"Vida ŝlosilo\" kaj \"Elspezŝlosilo\".</p>
         <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
         Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
         bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
@@ -63,7 +63,7 @@
         <p>Entajpu unikan monujnomon kaj pasvorton.
         La pasvorto estas uzita por sekurigi la datumojn restaŭrasde via monujo sur via Android-aparato. Uzu fortan
         pasvorton - eĉ pli bone, uzu pasfrazon.</p>
-        <p>Entajpu vian Monero-adreson en la kampo \"Publika adreso\" kaj plenigu \"Vida ŝlosilo\".</p>
+        <p>Entajpu vian Toklio-adreson en la kampo \"Publika adreso\" kaj plenigu \"Vida ŝlosilo\".</p>
         <p>Entajpu la bloknumeron de la unua transakcio okazinta por tiu adreso en la kampon \"Restaŭralteco\".
         Vi ankaŭ povas uzi daton je la formato JJJJ-MM-TT. Se vi ne certas, entajpu proksimuman
         bloknumeron aŭ daton de iom <em>antaŭ</em> via unua uzo de tiu adreso.</p>
@@ -117,10 +117,10 @@
         <h1>Listo de monujoj</h1>
 
         <h2>Nodo</h2>
-        <p>Monerujo uzas foran nodon por komuniki kun la Monero-Reto sen elŝuti kaj konservi kopion
+        <p>ToklWallet uzas foran nodon por komuniki kun la Toklio-Reto sen elŝuti kaj konservi kopion
         de la tuta blokĉeno. Vi povas trovi liston de popularaj foraj nodoj, aŭ lerni kiel starigi
         vian propran foran nodon, tie : https://moneroworld.com/</p>
-        <p>Monerujo estas jam antaŭagordita por kelkaj foraj nodoj. Ĝi memoros la kvin laste uzitajn
+        <p>ToklWallet estas jam antaŭagordita por kelkaj foraj nodoj. Ĝi memoros la kvin laste uzitajn
         nodojn. </p>
 
         <h2>Monujoj</h2>
@@ -178,7 +178,7 @@
         monon al malĝusta adreso.</p>
         <p>Aldone al tio, vi ankaŭ povas uzi
         <ul>
-            <li>iun OpenAlias por XMR aŭ BTC</li>
+            <li>iun OpenAlias por TOKL aŭ BTC</li>
             <li>bitmonan-adreson (BTC)<li>
             <li>bitmonan pag-URI (inkluzive BIP70 kiel bitpay)</li>
         </ul>
@@ -188,58 +188,58 @@
 
         <h1>Sendi BTC</h1>
 
-        <h2>XMR.TO</h2>
-        <p>XMR.TO estas ekstera liveranto kiu agas kiel ŝanĝisto de Monero al Bitmono. Ni uzas la
-        interfacon de XMR.TR por integrigi pagojn de bitmono en Monerujo. Bonvolu mem legi ĉe
-        https://xmr.to kaj decidu ĉu vi volas uzi tion. La Monerujo-teamo ne asocias kun XMR.TO kaj ne
+        <h2>TOKL.TO</h2>
+        <p>TOKL.TO estas ekstera liveranto kiu agas kiel ŝanĝisto de Toklio al Bitmono. Ni uzas la
+        interfacon de TOKL.TR por integrigi pagojn de bitmono en ToklWallet. Bonvolu mem legi ĉe
+        https://xmr.to kaj decidu ĉu vi volas uzi tion. La ToklWallet-teamo ne asocias kun TOKL.TO kaj ne
         kapablas helpi vin kun ilia servo.</p>
 
-        <h2>Kurzo de XMR.TO<h2>
-        <p>Sur la \"Kvanto\"-ekrano montriĝos la nunaj parametroj de la XMR.TO-servo. Ili inkludas la
-        nunan XMR/BTC-kurzon, la superan limon kaj suban limon de la eblaj BTC-transakcioj. Bonvolu
+        <h2>Kurzo de TOKL.TO<h2>
+        <p>Sur la \"Kvanto\"-ekrano montriĝos la nunaj parametroj de la TOKL.TO-servo. Ili inkludas la
+        nunan TOKL/BTC-kurzon, la superan limon kaj suban limon de la eblaj BTC-transakcioj. Bonvolu
         noti ke tiu kurzo ĉiam ŝanĝiĝas. Vi ankaŭ vidos la limon ĝis kiu ĉiu BTC-transakcio pleniĝos
-        tuj, sen atendi XMR-konfirmojn (vidu la informpaĝon de XMR.TO por pliaj detaloj). Bonvolu noti
-        ke XMR.TO ne postulas pliajn honorariojn. Ĉu ne mojose?</p>
-        <h2>Mendo al XMR.TO<h2>
-        <p>Sur la \"konfirmi\"-ekrano, vi vidos la efektivan XMR.TO-mendon. Tiu mendo validas nur dum
+        tuj, sen atendi TOKL-konfirmojn (vidu la informpaĝon de TOKL.TO por pliaj detaloj). Bonvolu noti
+        ke TOKL.TO ne postulas pliajn honorariojn. Ĉu ne mojose?</p>
+        <h2>Mendo al TOKL.TO<h2>
+        <p>Sur la \"konfirmi\"-ekrano, vi vidos la efektivan TOKL.TO-mendon. Tiu mendo validas nur dum
         limigita tempo - vi certe ekvidos retrokalkulon sur la \"Spendi\"-butonon. La kurzo estos
         eble malsama ol tiu antaŭe montrita.</p>
 
-        <h2>Sekreta ŝlosilo de XMR.TO<h2>
-        <p>Ĉar Monerujo nur traktas la Monero-flankon de via transakcio, vi uzu la sekretan
-        XMR.TO-ŝlosilon por sekvi la Bitmono-parton de via mendo sur la hejmpaĝo de XMR.TO.</p>
+        <h2>Sekreta ŝlosilo de TOKL.TO<h2>
+        <p>Ĉar ToklWallet nur traktas la Toklio-flankon de via transakcio, vi uzu la sekretan
+        TOKL.TO-ŝlosilon por sekvi la Bitmono-parton de via mendo sur la hejmpaĝo de TOKL.TO.</p>
         <p>Bonvolu noti, ke tiu sekreta ŝlosilo validas nur 24 horoj post kiam via transakcio
         komenciĝis!</p>
-        <h2>La retrokalkulo de XMR.TO!</h2>
-        <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan QUOTE de XMR.TO, reirante al la
+        <h2>La retrokalkulo de TOKL.TO!</h2>
+        <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan QUOTE de TOKL.TO, reirante al la
         antaŭa fazo kaj el tie repaŝi ĝis la \"Konfirmi\"-ekrano.</p>
     ]]></string>
 
     <string name="help_xmrto"><![CDATA[
         <h1>Elspezi Bitmonon</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO estas ekstera liveranto kiu aga kiel ŝanĝisto de Monero al Bitmono. Ni uzas la
-        interfacon de XMR.TR por integrigi pagojn de bitmono en Monerujo. Bonvolu mem legi ĉe
-        https://xmr.to kaj decidu ĉu vi volas uzi tion. La Monerujo-teamo ne asocias kun XMR.TO kaj ne
+        <h2>TOKL.TO</h2>
+        <p>TOKL.TO estas ekstera liveranto kiu aga kiel ŝanĝisto de Toklio al Bitmono. Ni uzas la
+        interfacon de TOKL.TR por integrigi pagojn de bitmono en ToklWallet. Bonvolu mem legi ĉe
+        https://xmr.to kaj decidu ĉu vi volas uzi tion. La ToklWallet-teamo ne asocias kun TOKL.TO kaj ne
         kapablas helpi vin kun ilia servo.</p>
-        <h2>Kurzo de XMR.TO<h2>
-        <p>Sur la \"Kvanto\"-ekrano montriĝos la nunaj parametroj de la XMR.TO-servo. Ili inkludas la
-        nunan XMR/BTC-kurzon, la superan limon kaj suban limon de la eblaj BTC-transakcioj. Bonvolu
+        <h2>Kurzo de TOKL.TO<h2>
+        <p>Sur la \"Kvanto\"-ekrano montriĝos la nunaj parametroj de la TOKL.TO-servo. Ili inkludas la
+        nunan TOKL/BTC-kurzon, la superan limon kaj suban limon de la eblaj BTC-transakcioj. Bonvolu
         noti ke tiu kurzo ĉiam ŝanĝiĝas. Vi ankaŭ vidos la limon ĝis kiu ĉiu BTC-transakcio pleniĝos
-        tuj, sen atendi XMR-konfirmojn (vidu la informpaĝon de XMR.TO por pliaj detaloj). Bonvolu noti
-        ke XMR.TO ne postulas pliajn honorariojn. Ĉu ne mojose?</p>
-        <h2>Mendo al XMR.TO<h2>
-        <p>Sur la \"konfirmi\"-ekrano, vi vidos la efektivan XMR.TO-mendon. Tiu mendo validas nur dum
+        tuj, sen atendi TOKL-konfirmojn (vidu la informpaĝon de TOKL.TO por pliaj detaloj). Bonvolu noti
+        ke TOKL.TO ne postulas pliajn honorariojn. Ĉu ne mojose?</p>
+        <h2>Mendo al TOKL.TO<h2>
+        <p>Sur la \"konfirmi\"-ekrano, vi vidos la efektivan TOKL.TO-mendon. Tiu mendo validas nur dum
         limigita tempo - vi certe ekvidos retrokalkulon sur la \"Spendi\"-butonon. La kurzo estos
         eble malsama de tiu antaŭe montrita.</p>
 
-        <h2>Sekreta ŝlosilo de XMR.TO<h2>
-        <p>Ĉar Monerujo nur traktas la Monero-parton de via transakcio, vi uzu la sekretan
-        XMR.TO-ŝlosilon por sekvi la Bitmono-flankon de via mendo sur la hejmpaĝo de XMR.TO.</p>
+        <h2>Sekreta ŝlosilo de TOKL.TO<h2>
+        <p>Ĉar ToklWallet nur traktas la Toklio-parton de via transakcio, vi uzu la sekretan
+        TOKL.TO-ŝlosilon por sekvi la Bitmono-flankon de via mendo sur la hejmpaĝo de TOKL.TO.</p>
         <p>Bonvolu noti, ke tiu sekreta ŝlosilo validas nur dum 24 horoj post kiam via transakcio
         komenciĝis!</p>
-        <h2>La retrokalkulo de XMR.TO!</h2>
-        <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan kurzproponon de XMR.TO, reirante al la
+        <h2>La retrokalkulo de TOKL.TO!</h2>
+        <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan kurzproponon de TOKL.TO, reirante al la
         antaŭa fazo kaj el tie repaŝi ĝis la \"Konfirmi\"-ekrano.</p>
     ]]></string>
 
@@ -252,13 +252,13 @@
         transakcioj montriĝos, til vi povos vidi ke vi sendis/ricevis dolĉajn Monerojn!</p>
 
         <h2>Skanado</h2>
-        Ĉar Monero ŝatas privatumi, je ĉiu starto la monujo devas skani la blokĉenon por vidi ĉu
-        novaj Moneroj sendiĝis al via monujo, kaj via aparato memoras nur la informojn kiuj apartenas
+        Ĉar Toklio ŝatas privatumi, je ĉiu starto la monujo devas skani la blokĉenon por vidi ĉu
+        novaj Toklioj sendiĝis al via monujo, kaj via aparato memoras nur la informojn kiuj apartenas
         al via monujo. Povas daŭri iom da tempo fojfoje, des pli se vi ne sinkronizis de longa tempo.
         <h2>La saldo</h2>
         <p><b>Helpon! La saldo de mia monujo malaperis aŭ ne konfirmiĝis!</b><br/>
         Ne paniku! Kiam vi sendas monon al via monujo, iom el via saldo maldaŭre montriĝos nekonfirmite.
-        Tio okazas kiel rezulto de la maniero laŭ kiu Monero sendiĝas sur la blokĉeno, kaj
+        Tio okazas kiel rezulto de la maniero laŭ kiu Toklio sendiĝas sur la blokĉeno, kaj
         kiel \"restmono\" traktiĝas.
         Legu pli pri restmono tie: https://getmonero.org/resources/moneropedia/change.html
         <h2>Transakcia listo</h2>
@@ -272,7 +272,7 @@
         Monerujon elekti la plej bonan por vi!</p>
 
         <h2>Kio estas nodo?</h2>
-        <p>Monerujo uzas foran nodon (kelkfoje nomata \"demono\") por komuniki kun la Monero-reto sen
+        <p>ToklWallet uzas foran nodon (kelkfoje nomata \"demono\") por komuniki kun la Toklio-reto sen
         elŝuti la tutan blokĉenon kaj gardi kopion de ĝi.</p>
 
         <h2>Listo de nodoj</h2>
@@ -282,10 +282,10 @@
         laste koniĝis de ĉiu nodo estas  montrita sub la nodnomo. Apud ĉiu nodo estas bildeto kiu simbolas
         la respond-sintenon de ĝi (indikilo de la postulinda konekt-nivelo).</p>
         <p>Ĉiu nodo de la listo povas markiĝi por pli posta uzo. Nodoj kiuj ne markiĝas, forgesiĝos.<p>
-        <p>Ĉiam kiam uzite, Monerujo elektos la plej taŭgan markitan nodon.
+        <p>Ĉiam kiam uzite, ToklWallet elektos la plej taŭgan markitan nodon.
         Tio okazas kontrolante la blokaltecon (kiom ĝisdata estas la nodo?) kaj la respond-sintenon (kiom
         rapide respondas la nodon?).<p>
-        <p>La listo estas ordigita laŭ tiuj ecoj, do la plej supra nodo uziĝos de Monerujo. La plej subaj
+        <p>La listo estas ordigita laŭ tiuj ecoj, do la plej supra nodo uziĝos de ToklWallet. La plej subaj
         nodoj estas ege malrapidaj aŭ nedisponaj.</p>
 
         <h2>Aldoni nodon</h2>
@@ -300,16 +300,16 @@
         La &quot;Testrezulto&quot; aperigos la blokaltecon, la responddaŭron kaj la uzitan IP-adreson.
         La rezulto eble estos eraro - plej ofte ĉar la provizita nomo de gastiganto ne atingeblas sufiĉe
         rapide, aŭ ĉar la ensalutiloj ne kongruas.
-        Ankaŭ povas esti ke la kombinaĵo gastigantonomo/pordo ne indikas ekzistantan nodon de Monero!
+        Ankaŭ povas esti ke la kombinaĵo gastigantonomo/pordo ne indikas ekzistantan nodon de Toklio!
         Post la sukceso de la testo (neniu eraro) - vi povas premi &quot;OK&quot; por konservi tiun nodon.</p>
 
         <h2>Serĉi nodojn</h2>
-        <p>Vi povas aldone skani la reton, serĉante nodojn. Monerujo komencos la skanadon je la pordo 18089.
+        <p>Vi povas aldone skani la reton, serĉante nodojn. ToklWallet komencos la skanadon je la pordo 18089.
         Ĝi komence petos viajn markitajn nodojn je aliaj partoprenantoj de la P2P-reto,
         kaj poste petos tiujn partoprenantoj je iliaj aliaj konektitaj partoprenantojn,
         kaj tiel plu.
-        Se vi ne markis nodojn (aŭ se ili ne respondas pri iliaj konektoj), Monerujo direkte petos la
-        pranodojn konservitajn en la kerno de Monero. La skanado haltos kiam 10 foraj nodoj estos trovitaj.</p>
+        Se vi ne markis nodojn (aŭ se ili ne respondas pri iliaj konektoj), ToklWallet direkte petos la
+        pranodojn konservitajn en la kerno de Toklio. La skanado haltos kiam 10 foraj nodoj estos trovitaj.</p>
     ]]></string>
 
     <string name="help_uri"><![CDATA[
