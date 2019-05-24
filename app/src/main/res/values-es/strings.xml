@@ -91,7 +91,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s TOKL sin confirmar</string>
 
-    <string name="service_description">Servicio de monerujo</string>
+    <string name="service_description">Servicio deToklWallet</string>
 
     <string name="status_synced">Sincronizado:</string>
     <string name="status_remaining">bloques restantes</string>
@@ -271,7 +271,7 @@
     <string name="send_fee">+%1$s Comisión</string>
     <string name="tx_destination_btc">Destino\n(BTC)</string>
     <string name="tx_amount_btc">Monto\n(BTC)</string>
-    <string name="about_whoami">Soy monerujo</string>
+    <string name="about_whoami">ToklWallet</string>
     <string name="info_send_xmrto_success_order_label">Orden TOKL.TO</string>
 
     <string name="info_xmrto_enabled">Pago en BTC activado, toca para más info.</string>

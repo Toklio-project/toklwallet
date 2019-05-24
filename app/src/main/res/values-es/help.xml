@@ -110,11 +110,11 @@
         <h2>Nodo</h2>
         <p>ToklWallet utiliza un nodo remoto para comunicarse con la red de Toklio sin tener que
         descargar y almacenar una copia completa de la cadena de bloques. Puedes encontrar una lista
-        de nodos remotos populares o aprender como montar tu propio nodo remoto aquí https://moneroworld.com</p>
+        de nodos remotos populares o aprender como montar tu propio nodo remoto aquí https://tokl.io</p>
         <p>ToklWallet viene con un nodo remoto ya preconfigurado. También recuerda los últimos cinco
         nodos utilizados.</p>
         <h2>Monederos</h2>
-        <p>Aquí puedes ver tus monederos. Están ubicados en el directorio <tt>monerujo</tt> del
+        <p>Aquí puedes ver tus monederos. Están ubicados en el directorio toklwallet del
         almacenamiento interno de tu dispositivo. Puedes utilizar un explorador de archivos
         para verlos. Deberías hacer copias de seguridad de este directorio de forma regular en
         almacenamientos fuera del dispositivo por si tu dispositivo explota o es robado.
@@ -129,7 +129,7 @@
         <p>Permite cambiar el nombre de tu monedero. La copia de seguridad no será renombrada.</p>
         <h3>Copia de seguridad</h3>
         <p>Crea una copia de tu monedero en el directorio <tt>backups</tt> que se encuentra dentro
-        de <tt>monerujo</tt> sobreescribiendo cualquier copia previa existente.</p>
+        de toklwallet sobreescribiendo cualquier copia previa existente.</p>
         <h3>Archivar</h3>
         <p>Crea una copia de seguridad y borra la cartera inmediatamente después. La copia
         permanecerá en el directorio <tt>backups</tt>. Si no necesitas más tus copias de seguridad
@@ -247,7 +247,7 @@
         <p>El Modo Público puede ser habilitado/deshabilitado en el menú o en el icono de Gunther\'s. En este modo, tu
         balance no se muestra en ninguna pantalla para que puedas usar de manera segura tu monedero en la calle, un pub u
         otro lugar público. Transacciones anteriores también se ocultan. Nuevas transacciones serán mostradas, para
-        que puedas ver que has enviado/recibido Toklioj.</p>
+        que puedas ver que has enviado/recibido Tokl.</p>
         <h2>Escaneado</h2>
         Como a Toklio le gusta mantener las cosas privadas, cada vez que abres una cartera de
         ToklWallet es necesario escanear la cadena de bloques para ver si nuevos moneroj han sido
@@ -317,7 +317,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

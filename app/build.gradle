@@ -4,11 +4,11 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.m2049r.xmrwallet"
+        applicationId "com.tokl.toklwallet"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 177
-        versionName "1.11.7 'Chernushka'"
+        versionName "1.11.7 'Laika'"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {

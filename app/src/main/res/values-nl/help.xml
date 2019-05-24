@@ -75,10 +75,10 @@
     <string name="help_list"><![CDATA[
         <h1>Portemonneelijst</h1>
         <h2>Node</h2>
-        <p>ToklWallet gebruikt een externe node om te communiceren met het Toklio-netwerk zonder zelf een exemplaar van de hele blockchain te hoeven downloaden en opslaan. Hier vind je een lijst met populaire externe nodes, of kun je leren hoe je er zelf een draait: https://moneroworld.com/<p>
+        <p>ToklWallet gebruikt een externe node om te communiceren met het Toklio-netwerk zonder zelf een exemplaar van de hele blockchain te hoeven downloaden en opslaan. Hier vind je een lijst met populaire externe nodes, of kun je leren hoe je er zelf een draait: https://tokl.io<p>
         <p>Bepaalde externe nodes zijn vooraf ingesteld in ToklWallet. De laatste vijf gebruikte nodes worden onthouden.</p>
         <h2>Portemonnees</h2>
-        <p>Hier worden je portemonnees weergegeven. Ze zijn opgeslagen in de map <tt>monerujo</tt> in de interne opslag van je apparaat. Je kunt ze vinden in een bestandenverkenner-app.
+        <p>Hier worden je portemonnees weergegeven. Ze zijn opgeslagen in de map toklwallet in de interne opslag van je apparaat. Je kunt ze vinden in een bestandenverkenner-app.
         Maak regelmatig back-ups van deze map naar opslag elders, voor het geval dat je apparaat in brand vliegt of wordt gestolen.</p>
         <p>Selecteer een portemonnee om te openen of tik op de \"+\" om een nieuwe te maken.
         Of selecteer een van de portemonnee-bewerkingen:</p>
@@ -89,7 +89,7 @@
         <h3>Hernoemen</h3>
         <p>De portemonnee een andere naam geven. De naam van back-ups wordt niet veranderd.</p>
         <h3>Back-up</h3>
-        <p>Een kopie maken van de portemonnee in de map <tt>backups</tt> in de map <tt>monerujo</tt>. Hierdoor worden eerdere kopieën overschreven.</p>
+        <p>Een kopie maken van de portemonnee in de map <tt>backups</tt> in de map toklwallet. Hierdoor worden eerdere kopieën overschreven.</p>
         <h3>Archiveren</h3>
         <p>Een back-up maken en vervolgens de portemonnee verwijderen. De kopie blijft in de map <tt>backups</tt> staan. Heb je je back-ups niet meer nodig? Verwijder ze dan met een bestandenverkenner of verwijder de app veilig.</p>
     ]]></string>
@@ -159,7 +159,7 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Toklioj!</p>
+        you can see that you have sent/received sweet Tokl!</p>
         <h2>Scannen</h2>
         Omdat Toklio graag alles geheim houdt, scannen we iedere keer als je een ToklWallet-portemonnee opent de blockchain om te kijken of er nieuwe moneroj naar je portemonnee zijn overgemaakt. Hierbij wordt alleen informatie die bij je portemonnee hoort opgeslagen op je telefoon. Soms kan het even duren als je een tijd niet hebt gesynchroniseerd.
         <h2>Het saldo</h2>
@@ -225,7 +225,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

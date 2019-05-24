@@ -119,12 +119,12 @@
         <h2>Nodo</h2>
         <p>ToklWallet uzas foran nodon por komuniki kun la Toklio-Reto sen elŝuti kaj konservi kopion
         de la tuta blokĉeno. Vi povas trovi liston de popularaj foraj nodoj, aŭ lerni kiel starigi
-        vian propran foran nodon, tie : https://moneroworld.com/</p>
+        vian propran foran nodon, tie : https://tokl.io</p>
         <p>ToklWallet estas jam antaŭagordita por kelkaj foraj nodoj. Ĝi memoros la kvin laste uzitajn
         nodojn. </p>
 
         <h2>Monujoj</h2>
-        <p>Jen viaj monujoj. Ili troviĝas en la <tt>monerujo</tt>dosierujo, en la interna memorilo de
+        <p>Jen viaj monujoj. Ili troviĝas en la toklwalletdosierujo, en la interna memorilo de
         via aparato. Vi povas uzi dosieran foliumilon por vidi ilin. Vi devus regule sekurkopii
         tiun dosierujon, kaze de eksplodo aŭ ŝtelo de via aparato.</p>
         <p>Elektu monujon por malfermi ĝin, aŭ premu la \"+\" por krei novan.
@@ -140,7 +140,7 @@
         <p>Renomas la monujon. Sekurkopioj ne renomiĝos.</p>
 
         <h3>Sekurkopio</h3>
-        <p> Kreas kopion de la monujo en la <tt>sekurkopioj</tt>-dosierujo en la <tt>monerujo</tt>,
+        <p> Kreas kopion de la monujo en la <tt>sekurkopioj</tt>-dosierujo en la toklwallet,
         anstataŭigante antaŭajn kopiojn tie.</p>
 
         <h3>Arkivo</h3>
@@ -253,7 +253,7 @@
 
         <h2>Skanado</h2>
         Ĉar Toklio ŝatas privatumi, je ĉiu starto la monujo devas skani la blokĉenon por vidi ĉu
-        novaj Toklioj sendiĝis al via monujo, kaj via aparato memoras nur la informojn kiuj apartenas
+        novaj Tokl sendiĝis al via monujo, kaj via aparato memoras nur la informojn kiuj apartenas
         al via monujo. Povas daŭri iom da tempo fojfoje, des pli se vi ne sinkronizis de longa tempo.
         <h2>La saldo</h2>
         <p><b>Helpon! La saldo de mia monujo malaperis aŭ ne konfirmiĝis!</b><br/>
@@ -314,7 +314,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started ToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

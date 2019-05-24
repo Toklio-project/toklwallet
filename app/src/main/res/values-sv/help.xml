@@ -56,12 +56,12 @@
         <h1>Plånboksinformation</h1>
         <h2>Offentlig adress</h2>
         Din offentliga adress är som ditt bankkontonummer, du kan dela det med vem som helst utan att
-        behöva oroa dig om att förlora dina Toklioj. Folk kommer skicka Toklio till din plånbok med
+        behöva oroa dig om att förlora dina Tokl. Folk kommer skicka Toklio till din plånbok med
         den här adressen.
         <h2>Mnemoniskt Frö</h2>
         Det här är den enda datan som behövs för att återställa din plånbok i framtiden och få full behörighet
         till dina pengar. Att bevara fröet säkert och privat är extremt viktigt, eftersom att det ger
-        <em>vem som helst</em> tillgång till dina Toklioj! Om du inte har skrivit ner det någonstans säkert,
+        <em>vem som helst</em> tillgång till dina Tokl! Om du inte har skrivit ner det någonstans säkert,
         vänligen gör det nu!
         <h2>Visningsnyckel</h2>
         Din visningsnyckel kan användas för att hålla ett öga på inkommande transaktioner till din
@@ -76,11 +76,11 @@
         <h2>Nod</h2>
         ToklWallet använder en Avlägsen Nod för att kommunicera med Toklio-nätverket utan att
         behöva ladda ner och lagra en kopia av hela blockkedjan. Du kan hitta en lista av populära
-        avlägsna noder eller lära dig hur man kör sin egen avlägsen nod här https://moneroworld.com/
+        avlägsna noder eller lära dig hur man kör sin egen avlägsen nod här https://tokl.io
         <p>
         <p>ToklWallet kommer med några avlägsna noder inställda. Den kommer ihåg de 5 senast använda noderna.</p>
         <h2>Plånböcker</h2>
-        <p>Här kan du se dina plånböcker. De finns i <tt>monerujo</tt> mappen på din enhets
+        <p>Här kan du se dina plånböcker. De finns i toklwallet mappen på din enhets
         interna minne. Du kan använda en filutforskar app för att se dem. Du borde
         säkerhetskopiera den här mappen regelbundet till en extern hårddisk, ifall din
         enhet blir stulen eller exploderar.
@@ -94,11 +94,11 @@
         <h3>Detaljer</h3>
         <p>Visa plånbokens detaljer, frö &amp; nycklar.</p>
         <h3>Mottaga</h3>
-        <p>Gör en QR kod för att ta emot Toklioj.</p>
+        <p>Gör en QR kod för att ta emot Tokl.</p>
         <h3>Ändra namn</h3>
         <p>Ändra namn på plånboken. Säkerhetskopior ändrar inte namn.</p>
         <h3>Säkerhetskopiera</h3>
-        <p>Skapa en kopia av plånboken i <tt>backups</tt> mappen i <tt>monerujo</tt> som skriver
+        <p>Skapa en kopia av plånboken i <tt>backups</tt> mappen i toklwallet som skriver
         över tidigare kopior där.</p>
         <h3>Arkiv</h3>
         <p>Gör en säkerhetskopiering och ta bort den efter. Kopian är kvar i <tt>backups</tt> mappen.
@@ -128,7 +128,7 @@
     <string name="help_send"><![CDATA[
         <h1>Skicka</h1>
         <h2>Mottagarens adress</h2>
-        <p>Det här är offentliga adressen av plånboken du skickar Toklioj till, du kan kopiera den från
+        <p>Det här är offentliga adressen av plånboken du skickar Tokl till, du kan kopiera den från
         urklipp, skanna en QR-kod eller ange den manuellt. Se till att du trippel-kollar den för att
         vara säker på att du inte skickar pengar till fel adress.</p>
         <p>In addition to using an  address, you can also use
@@ -212,10 +212,10 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Toklioj!</p>
+        you can see that you have sent/received sweet Tokl!</p>
         <h2>Inläsning</h2>
         Eftersom Toklio gillar att ha saker privat, läser ToklWallet in blockkedjan för att se om du fått
-        nya Toklioj varje gång du öppnar plånboken, det lagras alltså bara information på din mobil som
+        nya Tokl varje gång du öppnar plånboken, det lagras alltså bara information på din mobil som
         har med din plånbok att göra. Ibland kan det ta lång tid om du inte har synkroniserat på länge.
         <h2>Saldot</h2>
         <p><b>Hjälp! Min plånboks saldo har försvunnit eller är inte bekräftat!</b><br/>
@@ -280,7 +280,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

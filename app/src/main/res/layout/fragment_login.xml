@@ -68,7 +68,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="32dp"
-                        tools:text="128.130.233.151:18089" />
+                        tools:text="node1.tokl.io:18089" />
                 </LinearLayout>
             </FrameLayout>
 

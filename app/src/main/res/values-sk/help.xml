@@ -102,10 +102,10 @@
         <h2>Uzol</h2>
         <p>ToklWallet používa vzdialené uzly na komunikáciu so sieťou Toklio. Nie je tak potrebné sťahovať
 		a ukladať celú blockchain ako takú. Zoznam populárnych uzlov spolu s návodmi ako ich rozbehať môžeš nájsť na 
-		https://moneroworld.com/<p>
+		https://tokl.io<p>
         <p>ToklWallet prichádza s niekoľkými prednastavenými uzlami. Pamätá si posledných 5 použitých uzlov.</p>
         <h2>Peňaženky</h2>
-        <p>Tu vidíš svoje peňaženky. Sú umiestnené v adresári <tt>monerujo</tt> na internom úložisku Tvojho zariadenia.
+        <p>Tu vidíš svoje peňaženky. Sú umiestnené v adresári toklwallet na internom úložisku Tvojho zariadenia.
         Môžeš použiť súborový manažér telefónu na ich vyhľadanuie a zobrazenie.
 		Mal by si robiť pravidelné zálohy týchto adresárov a umiestniť ich mimo zariadenie pre prípad straty, či poškodenia.</p>
         <p>Označ Peňaženku alebo stlač \"+\" pre vytvorenie novej.
@@ -113,11 +113,11 @@
         <h3>Detaily</h3>
         <p>ukáže detaily peňaženky, seed &amp; kľúče.</p>
         <h3>Prijať</h3>
-        <p>Vytvorí QR kód na prijímanie Toklioj.</p>
+        <p>Vytvorí QR kód na prijímanie Tokl.</p>
         <h3>Premenuj</h3>
         <p>Premenuje peňaženku. Zálohy nie sú premenované.</p>
         <h3>Záloha</h3>
-        <p>Vytvorí kópiu peňaženky v adresári <tt>backups</tt> vnútri <tt>monerujo</tt>
+        <p>Vytvorí kópiu peňaženky v adresári <tt>backups</tt> vnútri toklwallet
         prepísaním predchádzajúcich kópií.</p>
         <h3>Archivovať</h3>
         <p>Vytvorí zálohu s následným zmazaním peňaženky. Kópia zostáva v adresári <tt>backups</tt>

@@ -77,7 +77,7 @@
         ett nytt passord (kanskje til og med det samme som før) vil appen generere et CrAzYpass for
         deg og sikre lommebokfilene dine med det. Skriv det ned!
         <h3>CrAzYpass lommebøker</h3>
-        Hvis du noen gang trenger å reinstallere monerujo (for eksempel etter å ha nullstilt enheten eller bytta
+        Hvis du noen gang trenger å reinstallereToklWallet (for eksempel etter å ha nullstilt enheten eller bytta
         til en ny en) eller du vil bruke lommebokfilene dine på en annen enhet eller PC, må du bruke
         dette gjenoppretelsespassordet for å få tilgang til lommeboka di igjen.<br/>
         Ved å velge \"Change Passphrase\" fra menyen, kan du velge et annet passord. Vær oppmerksom
@@ -95,10 +95,10 @@
         <h2>Node</h2>
         <p>ToklWallet bruker en ekstern node for å kommunisere med Toklio-nettverket, uten å måtte
         laste ned og oppbevare en kopi av blokkjeden selv. Du kan finne en liste over populære
-        eksterne noder eller lære hvordan du driver din egen eksterne node her: https://moneroworld.com/<p>
+        eksterne noder eller lære hvordan du driver din egen eksterne node her: https://tokl.io<p>
         <p>ToklWallet kommer med noen eksterne noder lagt inn. Den husker de fem siste nodene du har brukt.</p>
         <h2>Lommebøker</h2>
-        <p>Her ser du lommebøkene dine. De ligger i <tt>monerujo</tt> mappa
+        <p>Her ser du lommebøkene dine. De ligger i toklwallet mappa
         på den interne lagringa for enheten din. Du kan bruke en filutforsker for å se dem.
         Du burde ta backup av denne mappa en gang i blant til en ekstern enhet i tilfelle
         enheten din eksploderer eller blir stjelt.</p>
@@ -111,7 +111,7 @@
         <h3>Gi nytt navn</h3>
         <p>Gi nytt navn til lommeboka. Backuper blir ikke omgjort.</p>
         <h3>Backup</h3>
-        <p>Lag en kopi av lommeboka til <tt>backups</tt> mappa inni <tt>monerujo</tt>
+        <p>Lag en kopi av lommeboka til <tt>backups</tt> mappa inni toklwallet
         og overskriv tidligere kopier.</p>
         <h3>Arkiver</h3>
         <p>Lag en backup og slett lommeboka etterpå. Kopien blir igjen i <tt>backups</tt>
@@ -228,7 +228,7 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Toklioj!</p>
+        you can see that you have sent/received sweet Tokl!</p>
         <h2>Skanning</h2>
         Fordi Toklio liker å holde ting privat, må vi hver gang du åpner en lommebok i ToklWallet
         skanne blokkjeden for å se om noen nye moneroj har blitt sendt til lommeboka di, som bare
@@ -297,7 +297,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

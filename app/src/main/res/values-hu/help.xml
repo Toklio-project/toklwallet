@@ -76,7 +76,7 @@
         új jelszó megadása (ami akár a korábbival megegyező is lehet) esetén az applikáció generálni fog
         számodra egy CrAzYpass-t, majd azzal biztosítani fogja a tárcafájljaid. Írd le!
         <h3>CrAzYpass-os tárcák</h3>
-        Ha bármikor szükségessé válik a monerujo újratelepítése (például gyári állapo visszaállítása vagy
+        Ha bármikor szükségessé válik aToklWallet újratelepítése (például gyári állapo visszaállítása vagy
         telefoncsere esetén) vagy tárcafájljaidat egy másik eszközön, esetleg számítógépen szeretnéd használni,
         akkor ezt a visszaállító jelszót kell használnod a tárcád újbóli eléréséhez.<br/>
         A Jelszómódosítás menüpontban másik jelszót választhatsz, ám légy figyelmes, ugyanis ez új visszaállító
@@ -92,13 +92,13 @@
     <string name="help_list"><![CDATA[
         <h1>Tárcalista</h1>
         <h2>Csomópont</h2>
-        <p>A monerujo távoli csomópontot használ a Toklio-hálózattal való kommunikációhoz, így nem
+        <p>AToklWallet távoli csomópontot használ a Toklio-hálózattal való kommunikációhoz, így nem
         kell az egész blokklánc egy másolatát letölteni és tárolni. A népszerű távoli csomópontokról
-        és a saját csomópont futtatásáról a https://moneroworld.com weboldalon olvashatsz.<p>
-        <p>A monerujo tartalmaz néhány előbeállított távoli csomópontot. Megjegyzésre az utolsó öt
+        és a saját csomópont futtatásáról a https://tokl.io weboldalon olvashatsz.<p>
+        <p>AToklWallet tartalmaz néhány előbeállított távoli csomópontot. Megjegyzésre az utolsó öt
         használt csomópont kerül.</p>
         <h2>Tárcák</h2>
-        <p>Itt láthatod a tárcáidat. Helyileg az eszközöd belső tárhelyén, a <tt>monerujo</tt>
+        <p>Itt láthatod a tárcáidat. Helyileg az eszközöd belső tárhelyén, a toklwallet
         mappában találhatók, és egy fájlkezelő használatával ezeket könnyedén meg is találhatod.
         Időközönként csinálj biztonsági mentést erről a mappáról egy külső tárolóra arra az esetre,
         ha az eszközöd tönkremenne, esetleg ellopnák azt.</p>
@@ -111,7 +111,7 @@
         <h3>Átnevezés</h3>
         <p>Tárca átnevezése. A biztonsági mentések nem kerülnek átnevezésre.</p>
         <h3>Biztonsági mentés</h3>
-        <p>Másolat készítése a tárcáról a <tt>monerujo</tt> alatt található <tt>backups</tt>
+        <p>Másolat készítése a tárcáról a toklwallet alatt található <tt>backups</tt>
         mappán belül. A korábbi másolatok felülírásra kerülnek.</p>
         <h3>Archiválás</h3>
         <p>Biztonsági mentés készítése a tárcáról, majd annak ezt követő törlése. A másolat a
@@ -159,7 +159,7 @@
         <p>Az .TO egy harmadik féltől származó szolgáltatás, mely Moneróról Bitcoinra való átváltóként
         viselkedik. Az .TO API-ját használjuk a Bitcoinban való fizetés monerujóba való integrálásához.
         Kérlek, látogass el a https://xmr.to weboldalra, és döntsd el magad, hogy szeretnéd-e használni.
-        A monerujo csapata nincsen kapcsolatban az .TO-val és nem tudnak segítséget nyújtani a
+        AToklWallet csapata nincsen kapcsolatban az .TO-val és nem tudnak segítséget nyújtani a
         szolgáltatásaikkal kapcsolatban.</p>
         <h2>.TO árfolyam<h2>
         <p>A Mennyiség oldalon kerülnek megjelenítésre az .TO szolgáltatás paraméterei. Ez magában
@@ -173,7 +173,7 @@
         érvényes - láthatod a visszaszámlálást a Küldés gombon. Az árfolyam különbözhet a korábbi képernyőkön
         látottaktól.</p>
         <h2>.TO titkos kulcs<h2>
-        <p>Mivel a monerujo csak a tranzakciód Toklio részét kezeli, így az .TO titkos kulcsod
+        <p>Mivel aToklWallet csak a tranzakciód Toklio részét kezeli, így az .TO titkos kulcsod
         használható a megrendelésed Bitcoin részének nyomonkövetésére az .TO kezdőlapján.</p>
         <p>Kérjük vedd figyelembe, hogy ez a titkos kulcs csak a tranzakció kezdetétől számított
         24 óráig érvényes!</p>
@@ -188,7 +188,7 @@
         <p>Az .TO egy harmadik féltől származó szolgáltatás, mely Moneróról Bitcoinra való átváltóként
         viselkedik. Az .TO API-ját használjuk a Bitcoinban való fizetés monerujóba való integrálásához.
         Kérlek, látogass el a https://xmr.to weboldalra, és döntsd el magad, hogy szeretnéd-e használni.
-        A monerujo csapata nincsen kapcsolatban az .TO-val és nem tudnak segítséget nyújtani a
+        AToklWallet csapata nincsen kapcsolatban az .TO-val és nem tudnak segítséget nyújtani a
         szolgáltatásaikkal kapcsolatban.</p>
         <h2>.TO árfolyam<h2>
         <p>A Mennyiség oldalon kerülnek megjelenítésre az .TO szolgáltatás paraméterei. Ez magában
@@ -202,7 +202,7 @@
         érvényes - láthatod a visszaszámlálást a Küldés gombon. Az árfolyam különbözhet a korábbi képernyőkön
         látottaktól.</p>
         <h2>.TO titkos kulcs<h2>
-        <p>ivel a monerujo csak a tranzakciód Toklio részét kezeli, így az .TO titkos kulcsod
+        <p>ivel aToklWallet csak a tranzakciód Toklio részét kezeli, így az .TO titkos kulcsod
         használható a megrendelésed Bitcoin részének nyomonkövetésére az .TO kezdőlapján.</p>
         <p>Kérjük vedd figyelembe, hogy ez a titkos kulcs csak a tranzakció kezdetétől számított
         24 óráig érvényes!</p>
@@ -229,9 +229,9 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Toklioj!</p>
+        you can see that you have sent/received sweet Tokl!</p>
         <h2>Beolvasás</h2>
-        Mivel a Toklio szereti titokban tartani a dolgokat, így a monerujo-tárca minden egyes megnyitásakor
+        Mivel a Toklio szereti titokban tartani a dolgokat, így aToklWallet-tárca minden egyes megnyitásakor
         beolvasásra kerül a blokklánc, hogy megnézzük, került-e a tárcádba Toklio. Ez csakis olyan információt
         tárol a telefonodon, mely a tárcádhoz tartozik. Ha már hosszú ideje nem szinkronizáltál, a művelet
         eltarthat egy ideig.
@@ -299,7 +299,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

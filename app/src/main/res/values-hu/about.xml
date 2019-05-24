@@ -30,13 +30,13 @@
         titkosított formában kerülnek továbbításra a Toklio hálózatába.
         </p>
         <p>Más személyes adatot nem gyűjt az applikáció.</p>
-        <p>Az átváltási funkció (opcionális) használata esetén a monerujo a coinmarketcap.com
+        <p>Az átváltási funkció (opcionális) használata esetén aToklWallet a coinmarketcap.com
         nyilvános API-ján keresztül kéri le az árfolyamot.
         A kéréseid során történő adatgyűjtés módjával kapcsolatban tekintsd meg az adatvédelmi
         irányelveiket a https://coinmarketcap.com/privacy weboldalon.</p>
         <p>Ha BTC-címekre való fizetésre használod az applikációt, akkor az TOKL.TO szolgáltatását
         használod. Részletes adatvédelmi irányelveiket a https://xmr.to/ weboldalon tekintheted meg.
-        A monerujo számukra a kedvezményezett BTC-címet és a küldeni kívánt mennyiséget közli meg,
+        AToklWallet számukra a kedvezményezett BTC-címet és a küldeni kívánt mennyiséget közli meg,
         ám az IP-címed is begyűjthető.</p>
         <h2>Applikációengedélyek</h2>
         <ul>
@@ -48,14 +48,14 @@
         </ul>
         <h2>Az adatvédelmi irányelvek módosításai</h2>
         <p>Az adatvédelmi irányelveket időnként frissíthetjük. Bármiféle módosításról
-        értesíteni fogunk az új adatvédelmi irányelvek applikációban és weboldalon (www.monerujo.io)
+        értesíteni fogunk az új adatvédelmi irányelvek applikációban és weboldalon (tokl.io)
         történő közzétételével.
         Javasolt az adatvédelmi irányelvek időközönkénti átolvasása a változásokról való értesülés céljából.
         <p>Az adatvédelmi irányelvek legutolsó frissítése: 2017. november 10.
         </p>
         <h2>Lépj kapcsolatba velünk</h2>
         <p>Ha bármilyen kérdésed merül fel az adatvédelmi irányelveinkkel vagy az adatok
-        gyűjtésével és feldolgozásával kapcsolatban, úgy kérlek, írj e-mailt a privacy@monerujo.io címre.
+        gyűjtésével és feldolgozásával kapcsolatban, úgy kérlek, írj e-mailt a app.toklio@gmail.com címre.
         </p>
         ]]></string>
 </resources>

@@ -52,18 +52,18 @@ public class Notice {
                             R.string.help_node,
                             1)
             );
-            notices.add(
+           /* notices.add(
                     new Notice(NOTICE_SHOW_XMRTO_ENABLED_SEND,
                             R.string.info_xmrto_enabled,
                             R.string.help_xmrto,
                             1)
-            );
-            notices.add(
+            );*/
+            /*notices.add(
                     new Notice(NOTICE_SHOW_XMRTO_ENABLED_LOGIN,
                             R.string.info_xmrto_enabled,
                             R.string.help_xmrto,
                             1)
-            );
+            );*/
             notices.add(
                     new Notice(NOTICE_SHOW_LEDGER,
                             R.string.info_ledger_enabled,

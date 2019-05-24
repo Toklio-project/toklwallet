@@ -96,7 +96,7 @@
         <h2>Віддалений вузол</h2>
         <p>Для звязку з мережею Toklio без завантаження і збереження копії всього блокчейна, ToklWallet використовує
 віддалений вузол. Список популярних віддалених вузлів і інформацію про те як запустити власний
-віддалений вузол, можна знайти тут: https://moneroworld.com<p>
+віддалений вузол, можна знайти тут: https://tokl.io<p>
         <p>ToklWallet має деякі попередньо встановлені віддалені вузли. Також гаманець запамятовує
 пять останніх використаних вузлів.</p>
         <h2>Гаманці</h2>
@@ -226,7 +226,7 @@
         <p>Вуличний режим може бути ввімкнений/вимкнений в меню. В цьому режимі ваш баланс не буде відображатися на екрані,
           і ви зможете безпечно користуватися гаманцем на вулиці, в пабі або в іншому публічному місці.
           Попередні транзакції також приховані. Нові транзакції будуть відображені, таким чином ви будете бачити скільки ви
-          відправили/отримали солоденьцих Toklioj!</p>
+          відправили/отримали солоденьцих Tokl!</p>
         <h2>Сканування</h2>
         Оскільки Toklio орієнтована на підтримку анонімності, кожний раз, коли ви відкриваєте гаманець ToklWallet,
         нам доводиться сканувати блокчейн, щоб подивитися, чи були відправлені на ваш гаманець
@@ -294,7 +294,7 @@ https://getmonero.org/resources/moneropedia/change.html
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

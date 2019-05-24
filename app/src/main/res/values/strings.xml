@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-    <string name="app_name" translatable="false">monerujo</string>
+    <string name="app_name" translatable="false">ToklWallet</string>
     <string name="wallet_activity_name">Wallet</string>
 
     <string name="menu_about">About</string>
@@ -145,7 +145,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s  unconfirmed</string>
 
-    <string name="service_description">monerujo Service</string>
+    <string name="service_description">ToklWallet Service</string>
 
     <string name="status_synced">Synced:</string>
     <string name="status_remaining">Blocks remaining</string>
@@ -174,10 +174,10 @@
         <strong>Fingerprint Authentication</strong>
         <p>With fingerprint authentication enabled, you can view wallet balance and receive funds
         without entering password.</p>
-        <p>But for additional security, monerujo will still require you to enter password when
+        <p>But for additional security, ToklWallet will still require you to enter password when
         viewing wallet details or sending funds.</p>
         <strong>Security Warning</strong>
-        <p>Finally, monerujo wants to remind you that anyone who can get your fingerprint will be
+        <p>Finally, ToklWallet wants to remind you that anyone who can get your fingerprint will be
         able to peep into your wallet balance.</p>
         <p>For instance, a malicious user around you can open your wallet when you are asleep.</p>
         <strong>Are you sure to enable this function?</strong>
@@ -224,8 +224,8 @@
     <string name="send_notes_hint">Private Notes (optional)</string>
     <string name="send_generate_paymentid_hint">Generate</string>
     <string name="send_qr_hint" translatable="false">Scan</string>
-    <string name="send_send_label">Spend my sweet Toklioj</string>
-    <string name="send_send_timed_label">Spend my sweet Toklioj (%1$s)</string>
+    <string name="send_send_label">Spend my sweet Tokl</string>
+    <string name="send_send_timed_label">Spend my sweet Tokl (%1$s)</string>
     <string name="send_qr_invalid">Not a QR Code</string>
     <string name="send_qr_address_invalid">Not a valid payment QR code</string>
     <string name="send_address_invalid">Not a valid address</string>
@@ -297,7 +297,7 @@
     <string name="archive_alert_no">No thanks!</string>
 
     <string-array name="currency" translatable="false">
-        <item></item>
+        <item>TOKL</item>
         <item>EUR</item>
         <item>USD</item>
         <item>JPY</item>

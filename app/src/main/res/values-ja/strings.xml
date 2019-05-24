@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-    <string name="app_name" translatable="false">monerujo</string>
+    <string name="app_name" translatable="false">ToklWallet</string>
     <string name="wallet_activity_name">ウォレット</string>
 
-    <string name="menu_about">Monerujoについて</string>
+    <string name="menu_about">ToklWalletについて</string>
     <string name="menu_privacy">プライバシーポリシー</string>
 
     <string name="menu_share">共有</string>
@@ -293,7 +293,7 @@
     <string name="archive_alert_no">いいえ、結構です!</string>
 
     <string-array name="currency" translatable="false">
-        <item></item>
+        <item>TOKL</item>
         <item>EUR</item>
         <item>USD</item>
         <item>JPY</item>

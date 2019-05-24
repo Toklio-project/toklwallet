@@ -1,1 +1,5 @@
 build
+boost
+libsodium
+openssl
+Toklio

@@ -208,16 +208,16 @@ public class Helper {
     }
 
     static public String getFormattedAmount(double amount, boolean isXmr) {
-        // at this point selection is XMR in case of error
+        // at this point selection is TOKL in case of error
         String displayB;
-        if (isXmr) { // XMR
+        if (isXmr) { // TOKL
             long xmr = Wallet.getAmountFromDouble(amount);
             if ((xmr > 0) || (amount == 0)) {
                 displayB = String.format(Locale.US, "%,.5f", amount);
             } else {
                 displayB = null;
             }
-        } else { // not XMR
+        } else { // not TOKL
             displayB = String.format(Locale.US, "%,.2f", amount);
         }
         return displayB;
@@ -351,7 +351,7 @@ public class Helper {
     // TODO make the log levels refer to the  WalletManagerFactory::LogLevel enum ?
     static public void initLogger(Context context, int level) {
         String home = getStorage(context, HOME_DIR).getAbsolutePath();
-        WalletManager.initLogger(home + "/monerujo", "monerujo.log");
+        WalletManager.initLogger(home + "/toklwallet", "toklwallet.log");
         if (level >= WalletManager.LOGLEVEL_SILENT)
             WalletManager.setLogLevel(level);
     }

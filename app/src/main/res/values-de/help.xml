@@ -97,10 +97,10 @@
         <h2>Node</h2>
         <p>ToklWallet benutzt einen Drittanbieter-Node, um mit dem Toklio-Netzwerk zu kommunizieren, ohne
         die gesamte Blockchain herunterladen zu müssen. Eine Liste bekannter Drittanbieter-Nodes
-	oder eine Anleitung zum Betreiben eines eigenen Drittanbieter-Nodes findest du unter https://moneroworld.com/<p>
+	oder eine Anleitung zum Betreiben eines eigenen Drittanbieter-Nodes findest du unter https://tokl.io<p>
         <p>ToklWallet besitzt einige voreingestellte Drittanbieter-Nodes. Es erinnert sich an die letzten 5 benutzten Nodes.</p>
         <h2>Wallets</h2>
-        <p>Hier siehst du deine Wallets. Sie befinden sich im <tt>monerujo</tt> Ordner
+        <p>Hier siehst du deine Wallets. Sie befinden sich im toklwallet Ordner
         im internen Speicher deines Geräts. Du kannst einen Datei-Explorer nutzen, um sie zu finden.
         Du solltest regelmäßig Backups von diesem Ordner machen und diese sicher aufbewahren für den Fall,
         dass dein Gerät EXPLODIERT oder gestohlen wird.</p>
@@ -109,11 +109,11 @@
         <h3>Details</h3>
         <p>Zeige die Wallet-Details, Seed &amp; Keys.</p>
         <h3>Empfangen</h3>
-        <p>Generiere einen QR-Code, um Toklioj zu empfangen.</p>
+        <p>Generiere einen QR-Code, um Tokl zu empfangen.</p>
         <h3>Umbenennen</h3>
         <p>Benenne das Wallet um. Backups werden nicht umbenannt.</p>
         <h3>Backup</h3>
-        <p>Erstelle eine Kopie des Wallets im <tt>backups</tt> Ordner innerhalb des <tt>monerujo</tt> Ordners.
+        <p>Erstelle eine Kopie des Wallets im <tt>backups</tt> Ordner innerhalb des toklwallet Ordners.
         Eine bereits vorhandene Kopie wird überschrieben.</p>
         <h3>Archivieren</h3>
         <p>Erstellt ein Backup und löscht danach das Wallet. Die Kopie verbleibt im <tt>backups</tt>
@@ -124,7 +124,7 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Transaktionsdetails</h1>
         <h2>Ziel</h2>
-        Dies ist die öffentliche Adresse des Wallets, zu dem du Toklioj gesendet hast.
+        Dies ist die öffentliche Adresse des Wallets, zu dem du Tokl gesendet hast.
         <h2>Zahlungs-ID</h2>
         Du kannst eine Zahlungs-ID benutzen, um Zahlungen zu identifizieren. Dies ist optional und ist nicht öffentlich einsehbar. 
 		Zum Beispiel kann ein Unternehmen damit Zahlungen und Verkäufe miteinander verbinden.
@@ -141,9 +141,9 @@
     <string name="help_send"><![CDATA[
         <h1>Senden</h1>
         <h2>Empfängeradresse</h2>
-        <p>Dies ist die öffentliche Adresse des Wallets, an das du Toklioj sendest. Du kannst sie aus der Zwischenablage kopieren,
+        <p>Dies ist die öffentliche Adresse des Wallets, an das du Tokl sendest. Du kannst sie aus der Zwischenablage kopieren,
 	einen QR-Code scannen oder sie manuell eingeben. Vergewissere dich, dass es die richtige Adresse ist, um
-        sicherzustellen, die Toklioj nicht irrtümlich an eine falsche Adresse zu senden.</p>
+        sicherzustellen, die Tokl nicht irrtümlich an eine falsche Adresse zu senden.</p>
         <p>Zusätzlich zu einer normalen Toklio-Adresse kannst du auch
         <ul>
             <li>einen OpenAlias für TOKL oder BTC</li>
@@ -224,16 +224,16 @@
         <p>Der Straßenmodus kann im Menü unterhalb Gunthers Kopfsymbol an- und ausgeschaltet werden. In diesem Modus wird dein
         Guthaben in keinem Menüpunkt angezeigt, sodass du dein Wallet gefahrlos auf der Straße, in einer Bar oder
         anderem öffentlichen Ort nutzen kannst. Vorherige Transaktionen sind ebenfalls verborgen. Neue Transaktionen werden angezeigt, damit
-        du sehen kannst, wenn du diese genialen Toklioj versendet oder empfangen hast!</p>
+        du sehen kannst, wenn du diese genialen Tokl versendet oder empfangen hast!</p>
         <h2>Scannen</h2>
         Weil Toklio gerne Dinge geheim hält, wird nach jedem Öffnen eines ToklWallet-Wallets die Blockchain gescannt,
-	um zu überprüfen, ob neue Toklioj zu diesem Wallet gesendet wurden. Dies speichert ausschließlich Informationen,
+	um zu überprüfen, ob neue Tokl zu diesem Wallet gesendet wurden. Dies speichert ausschließlich Informationen,
 	die zum Wallet auf diesem Gerät gehören. Manchmal kann dies etwas länger dauern, falls die letzte Synchronisierung
         eine Weile her ist.
         <h2>Das Guthaben</h2>
         <p><b>Hilfe! Mein Wallet-Guthaben ist verschwunden oder ist unbestätigt!</b><br/>
         Keine Panik! Wenn du Gelder von deinem Wallet sendest, wird ein Teil deines Guthabens kurzzeitig als unbestätigt angezeigt.
-        Dies geschieht aufgrund der zugrunde liegenden Technologie und wie Toklioj auf der Blockchain bewegt werden.
+        Dies geschieht aufgrund der zugrunde liegenden Technologie und wie Tokl auf der Blockchain bewegt werden.
         Lies mehr darüber auf https://getmonero.org/resources/moneropedia/change.html
         <h2>Transaktionsliste</h2>
         <p>Eine Liste deiner Transaktionen. In View-Wallets werden nur die eingehenden Transaktionen angezeigt.</p>

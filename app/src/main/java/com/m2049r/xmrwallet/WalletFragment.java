@@ -217,13 +217,13 @@ public class WalletFragment extends Fragment
 
     void updateBalance() {
         if (isExchanging) return; // wait for exchange to finish - it will fire this itself then.
-        // at this point selection is XMR in case of error
+        // at this point selection is TOKL in case of error
         String displayB;
         double amountA = Helper.getDecimalAmount(unlockedBalance).doubleValue();
-        if (!Helper.CRYPTO.equals(balanceCurrency)) { // not XMR
+        if (!Helper.CRYPTO.equals(balanceCurrency)) { // not TOKL
             double amountB = amountA * balanceRate;
             displayB = Helper.getFormattedAmount(amountB, false);
-        } else { // XMR
+        } else { // TOKL
             displayB = Helper.getFormattedAmount(amountA, true);
         }
         showBalance(displayB);
@@ -237,10 +237,10 @@ public class WalletFragment extends Fragment
     void refreshBalance() {
         double unconfirmedXmr = Helper.getDecimalAmount(balance - unlockedBalance).doubleValue();
         showUnconfirmed(unconfirmedXmr);
-        if (sCurrency.getSelectedItemPosition() == 0) { // XMR
+        if (sCurrency.getSelectedItemPosition() == 0) { // TOKL
             double amountXmr = Helper.getDecimalAmount(unlockedBalance).doubleValue();
             showBalance(Helper.getFormattedAmount(amountXmr, true));
-        } else { // not XMR
+        } else { // not TOKL
             String currency = (String) sCurrency.getSelectedItem();
             Timber.d(currency);
             if (!currency.equals(balanceCurrency) || (balanceRate <= 0)) {
@@ -293,7 +293,7 @@ public class WalletFragment extends Fragment
     }
 
     public void exchangeFailed() {
-        sCurrency.setSelection(0, true); // default to XMR
+        sCurrency.setSelection(0, true); // default to TOKL
         double amountXmr = Helper.getDecimalAmount(unlockedBalance).doubleValue();
         showBalance(Helper.getFormattedAmount(amountXmr, true));
         hideExchanging();

@@ -75,7 +75,7 @@ namespace hw {
 
       void connect(void *params) {};
       void disconnect() {};
-      bool connected() const {return true;}; // monerujo is always connected before it gets here
+      bool connected() const {return true;}; //ToklWallet is always connected before it gets here
 
       // returns number of bytes read or -1 on error
       int  exchange(unsigned char *command, unsigned int cmd_len, unsigned char *response, unsigned int max_resp_len) {

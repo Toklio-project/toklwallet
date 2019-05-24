@@ -107,10 +107,10 @@
         <h2>Server</h2>
         <p>ToklWallet uses a Remote Node to communicate with the Toklio Network without having
         to download and store a copy of the whole blockchain itself. You can find a list of popular
-        remote nodes or learn how to run your own remote node here https://moneroworld.com/<p>
+        remote nodes or learn how to run your own remote node here https://tokl.io<p>
         <p>ToklWallet comes with some Remote Nodes preset. It remembers the last five nodes used.</p>
         <h2>Rahakotid</h2>
-        <p>Here you see your wallets. They are located in the <tt>monerujo</tt> folder
+        <p>Here you see your wallets. They are located in the toklwallet folder
         in the internal storage of your device. You can use a file explorer app to see them.
         You should make backups of this folder on a regular basis to off-device storage in
         case your device explodes or gets stolen.</p>
@@ -119,11 +119,11 @@
         <h3>Info</h3>
         <p>Show the wallet details, seed &amp; keys.</p>
         <h3>Küsi raha</h3>
-        <p>Make a QR code for receiving Toklioj.</p>
+        <p>Make a QR code for receiving Tokl.</p>
         <h3>Nimeta ümber</h3>
         <p>Rename the wallet. Backups are not renamed.</p>
         <h3>Tagavarakoopia</h3>
-        <p>Make a copy of the wallet in the <tt>backups</tt> folder inside the <tt>monerujo</tt>
+        <p>Make a copy of the wallet in the <tt>backups</tt> folder inside the toklwallet
         overwriting previous copies there.</p>
         <h3>Arhiveeri</h3>
         <p>Make a backup and delete the wallet afterwards. The copy remains in the <tt>backups</tt>
@@ -152,7 +152,7 @@
     <string name="help_send"><![CDATA[
         <h1>Saatmine</h1>
         <h2>Saaja aadress</h2>
-        <p>This is the public address of the wallet you are sending Toklioj to, you can copy this from
+        <p>This is the public address of the wallet you are sending Tokl to, you can copy this from
         your clipboard, scan a QR code or enter it manually. Make sure you triple check this to
         ensure you aren’t sending coins to the wrong address.</p>
         <p>In addition to using an  address, you can also use
@@ -240,10 +240,10 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Toklioj!</p>
+        you can see that you have sent/received sweet Tokl!</p>
         <h2>Uuendamine</h2>
         Because Toklio likes to keep things private, every time you open a ToklWallet wallet we have to
-        scan the blockchain to see if any new Toklioj have been sent to your wallet, this only
+        scan the blockchain to see if any new Tokl have been sent to your wallet, this only
         stores information to your phone which belongs to your wallet. Sometimes it can take a while
         because you haven’t synced in a long time.
         <h2>Kontojääk</h2>
@@ -309,7 +309,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujo with a payment link. In order to send funds, please do the following:</p>
+        <p>You have startedToklWallet with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

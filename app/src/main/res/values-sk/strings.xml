@@ -169,7 +169,7 @@
     <string name="generate_fingerprint_warn"><![CDATA[
         <strong>Overenie odtlačkom prsta</strong>
         <p>Pomocou overenia odtlačkom prsta, môžeš vidieť zostatok a prijímať prostriedky, bez zadávania hesla.</p>
-        <p>Avšak kvôli zvýšeniu bezpečnosti, monerujo bude stále vyžadovať heslo na zobrazenie detailov peňaženky a posielanie.</p>
+        <p>Avšak kvôli zvýšeniu bezpečnosti,ToklWallet bude stále vyžadovať heslo na zobrazenie detailov peňaženky a posielanie.</p>
         <strong>Bezpečnostné Varovanie</strong>
         <p>ToklWallet Ti chce pripomenúť, že ktokoľvek kto získa prístup k Tvojim odtlačkom, bude schopný nazrieť do tvojej peňaženky.</p>
         <p>Napríklad záškodník niekde v blízkosti môže otvoriť Tvoju peňaženku keď spíš.</p>

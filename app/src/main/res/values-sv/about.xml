@@ -29,7 +29,7 @@
         för att utföra transaktioner och skicka till Toklio-nätverket i krypterad form.
         </p>
         <p>Någon annan personlig data är inte samlad av appen.</p>
-        <p>Om du använder funktionen för USD/EUR växling (valfritt) så hämtar monerujo valutakurserna
+        <p>Om du använder funktionen för USD/EUR växling (valfritt) så hämtarToklWallet valutakurserna
         genom offentliga API:n av kraken.com.
         Läs deras sekretesspolicy på https://www.kraken.com/legal/privacy för
         detaljer om hur data i dina begär är samlade (speciellt
@@ -48,14 +48,14 @@
         <h2>Ändringar till denna Sekretesspolicy</h2>
         <p>Vi kan uppdatera denna sekretesspolicy. Vi meddelar
         dig om alla ändringar genom att skriva om den nya sekretesspolicyn i appen
-        och på hemsidan (www.monerujo.io)
+        och på hemsidan (tokl.io)
         Vi rekommendar att du läser vår sekretesspolicyn regelbundet för eventuella ändringar.
         <p>Denna Sekretesspolicy uppdaterades senast den: 10 November, 2017.
         </p>
         <h2>Kontakta Oss</h2>
         <p>Om du har några frågor om våran sekretesspolicy,
         eller om hur din data blir samlad och bearbetad,
-        vänligen skicka e-post till privacy@monerujo.io.
+        vänligen skicka e-post till app.toklio@gmail.com.
         </p>
         ]]></string>
 </resources>

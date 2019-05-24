@@ -93,10 +93,10 @@
         <h2>Nó</h2>
         <p>O ToklWallet utiliza um Nó Remoto para comunicar com a rede Toklio sem ter que descarregar e
         guardar uma cópia da blockchain inteira. Podes encontrar uma lista de nós remotos populares ou
-        aprende como correr o teu próprio nó remoto em https://moneroworld.com/<p>
+        aprende como correr o teu próprio nó remoto em https://tokl.io<p>
         <p>O ToklWallet vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
         <h2>Carteiras</h2>
-        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>monerujo</tt>
+        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta toklwallet
         na memória interna do teu dispositivo. Podes utilizar um explorador de ficheiros
         para vê-las. Deves fazer cópias de segurança desta pasta regularmente para outro
         dispositivo para o caso dele explodir ou ser roubado.</p>
@@ -105,12 +105,12 @@
         <h3>Detalhes</h3>
         <p>Mostra os detalhes da carteira, semente &amp; chaves.</p>
         <h3>Receber</h3>
-        <p>Cria um código QR para receber Toklioj.</p>
+        <p>Cria um código QR para receber Tokl.</p>
         <h3>Renomear</h3>
         <p>Renomeia a carteira. As cópias de segurança não são renomeadas.</p>
         <h3>Cópia de segurança</h3>
         <p>Faz uma cópia da carteira na pasta <tt>cópias de segurança</tt> dentro do
-        <tt>monerujo</tt> reescrevendo cópias anteriores que lá estejam.</p>
+        toklwallet reescrevendo cópias anteriores que lá estejam.</p>
         <h3>Arquivar</h3>
         <p>Faz uma cópia de segurança e de seguida apaga a carteira. a cópia permanece na pasta de
         <tt>cópias de segurança</tt>. Se já não precisas das tuas cópias de segurança, deves apagá-las
@@ -120,9 +120,9 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Detalhes da Transacção</h1>
         <h2>Destino</h2>
-        O endereço público para o qual enviaste Toklioj
+        O endereço público para o qual enviaste Tokl
         <h2>ID do Pagamento</h2>
-        Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Toklioj.
+        Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Tokl.
         Isto é opcional e privado. Por exemplo, isto permite que um negócio identifique que item
         é que uma determinada transacção está a pagar.
         <h2>ID TX</h2>
@@ -138,7 +138,7 @@
     <string name="help_send"><![CDATA[
         <h1>Enviar</h1>
         <h2>Endereço do Destinatário</h2>
-        <p> Este é o endereço público da carteira para a qual vais enviar Toklioj, podes copiar esta
+        <p> Este é o endereço público da carteira para a qual vais enviar Tokl, podes copiar esta
         informação da área de transferência, capturara um código QR, ou introduzir manualmente. Confirma
         atentamente que não estás a enviar para o endereço errado.</p>
         <p>Para alem de usar um endereço de  também podes usar
@@ -150,7 +150,7 @@
 	Não deixar de notar que, enviar BTC é processado através do serviço .TO (ver https://xmr.to
 	para detalhes). Ver a secção enviar BTC.</p>
         <h2>ID do Pagamento</h2>
-        <p>Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Toklioj.
+        <p>Utiliza-se o ID do Pagamento para identificar a razão porque foram transaccionados Tokl.
         Isto é opcional e privado. Por exemplo, isto permite que um negócio identifique que item
         é que uma determinada transacção está a pagar.</p>
         <h1>Enviar BTC</h1>
@@ -231,17 +231,17 @@
         <p>O Street mode pode ser ligado/desligado no menu ou na cabeça do icon Gunther. Neste modo
 	o teu saldo não é mostrado no teu ecrã para que possas usar a tua carteira de forma segura 
 	na rua, num bar ou outro local publico. As transações anteriores são também escondidas. As novas 
-	transações serão mostradas, para que cossas ver se enviaste/recebeste os teus preciosos Toklioj!</p>
+	transações serão mostradas, para que cossas ver se enviaste/recebeste os teus preciosos Tokl!</p>
         <h2>A Examinar</h2>
         Como o Toklio gosta de manter as coisas privadas, cada vez que abres uma carteira ToklWallet temos
-        que examinar a blockchain para ver se novos Toklioj foram enviados para a tua carteira. Apenas
+        que examinar a blockchain para ver se novos Tokl foram enviados para a tua carteira. Apenas
         informação correspondente à tua carteira é guardada no telefone. Por vezes pode demorar algum tempo
         por já não sincronizares há algum tempo.
         <h2>O Saldo</h2>
         <p><b>Ajudem! O saldo da minha carteira desapareceu ou está não-confirmado!</b><br/>
         Não entres em pânico! Quando envias fundos da tua carteira, algum do teu saldo aparece temporariamente
         como não confirmado.
-        Isto acontece como resultado da forma como os Toklioj são trocados na blockchain.
+        Isto acontece como resultado da forma como os Tokl são trocados na blockchain.
         Podes ler mais sobre iston em https://getmonero.org/resources/moneropedia/change.html
         <h2>Lista de Transacções</h2>
         <p>Uma lista de transacções da carteira. Em carteiras de visualização, apenas são mostradas transacções

@@ -178,7 +178,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                     llPaymentId.setVisibility(View.INVISIBLE);
                     tvPaymentIdIntegrated.setVisibility(View.VISIBLE);
                     llXmrTo.setVisibility(View.INVISIBLE);
-                    sendListener.setMode(SendFragment.Mode.XMR);
+                    sendListener.setMode(SendFragment.Mode.TOKL);
                 } else if (isBitcoinAddress() || (resolvedPP != null)) {
                     Timber.d("isBitcoinAddress");
                     setBtcMode();
@@ -187,7 +187,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                     llPaymentId.setVisibility(View.VISIBLE);
                     tvPaymentIdIntegrated.setVisibility(View.INVISIBLE);
                     llXmrTo.setVisibility(View.INVISIBLE);
-                    sendListener.setMode(SendFragment.Mode.XMR);
+                    sendListener.setMode(SendFragment.Mode.TOKL);
                 }
             }
 
@@ -306,7 +306,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                 @Override
                 public void onResolved(Map<BarcodeData.Asset, BarcodeData> dataMap) {
                     resolvingOA = false;
-                    BarcodeData barcodeData = dataMap.get(BarcodeData.Asset.XMR);
+                    BarcodeData barcodeData = dataMap.get(BarcodeData.Asset.TOKL);
                     if (barcodeData == null) barcodeData = dataMap.get(BarcodeData.Asset.BTC);
                     if (barcodeData != null) {
                         Timber.d("Security=%s, %s", barcodeData.security.toString(), barcodeData.address);
